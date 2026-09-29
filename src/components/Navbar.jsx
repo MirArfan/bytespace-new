@@ -7,7 +7,7 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 w-full h-20 sm:h-24 bg-[#073be0] border-b border-white/20 z-50 text-white font-medium">
+    <header className="sticky top-0 left-0 w-full h-20 sm:h-24 bg-[#073be0] border-b border-white/20 z-999 text-white font-medium">
       {/* Max-width container to prevent elements from touching extreme screen edges */}
       <div className=" mx-auto h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-16">
         
