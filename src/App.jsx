@@ -1,9 +1,15 @@
-import React from 'react'
+import Navbar from "./components/Navbar";
 
-function App() {
+
+export default function App() {
   return (
-    <div className='text-red-600'>App</div>
-  )
-}
+    <main className="site-shell">
+      <section>
 
-export default App
+        {/* Modular Sections */}
+        <Navbar />
+      </section>
+
+    </main>
+  );
+}
