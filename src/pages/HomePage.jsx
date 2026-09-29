@@ -1,5 +1,6 @@
 import CourseStage from "../components/CourseStage";
 import HeroContent from "../components/HeroContent";
+import LogoStrip from "../components/LogoStrip";
 import Navbar from "../components/Navbar";
 
 
@@ -22,6 +23,7 @@ export default function HomePage() {
         <HeroContent />
         <CourseStage />
       </section>
+      <LogoStrip />
     </main>
   );
 }
