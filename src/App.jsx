@@ -1,15 +1,10 @@
-import Navbar from "./components/Navbar";
+import HomePage from "./pages/HomePage";
 
 
 export default function App() {
   return (
-    <main className="site-shell">
-      <section>
-
-        {/* Modular Sections */}
-        <Navbar />
-      </section>
-
-    </main>
+    <>
+      <HomePage />
+    </>
   );
 }
