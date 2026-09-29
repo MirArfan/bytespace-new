@@ -1,3 +1,4 @@
+import Categories from "../components/Categories";
 import CourseStage from "../components/CourseStage";
 import HeroContent from "../components/HeroContent";
 import LogoStrip from "../components/LogoStrip";
@@ -24,6 +25,7 @@ export default function HomePage() {
         <CourseStage />
       </section>
       <LogoStrip />
+      <Categories/>
     </main>
   );
 }
