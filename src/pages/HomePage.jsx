@@ -7,6 +7,7 @@ import HeroContent from "../components/HeroContent";
 import LearningPaths from "../components/LearningPaths";
 import LogoStrip from "../components/LogoStrip";
 import Navbar from "../components/Navbar";
+import Testimonials from "../components/Testimonials";
 
 
 export default function HomePage() {
@@ -34,6 +35,7 @@ export default function HomePage() {
       <LearningPaths/>
       <FeatureSections/>
       <CreatorBanner/>
+      <Testimonials/>
     </main>
   );
 }
