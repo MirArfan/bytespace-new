@@ -1,6 +1,7 @@
 import Categories from "../components/Categories";
 import CourseGrid from "../components/CourseGrid";
 import CourseStage from "../components/CourseStage";
+import CreatorBanner from "../components/CreatorBanner";
 import FeatureSections from "../components/FeatureSections";
 import HeroContent from "../components/HeroContent";
 import LearningPaths from "../components/LearningPaths";
@@ -32,6 +33,7 @@ export default function HomePage() {
       <CourseGrid/>
       <LearningPaths/>
       <FeatureSections/>
+      <CreatorBanner/>
     </main>
   );
 }
