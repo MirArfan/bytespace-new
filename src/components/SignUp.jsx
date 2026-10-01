@@ -8,7 +8,7 @@ import courseImg2 from "../assets/course-2.jpg"; // Digital Asset Course image
 import ring from "../assets/ring.png";
 import pyramid from "../assets/pyramid.png";
 import Spiral2 from "../assets/spiral2.png";
-import ellipse1 from "../assets/ellipse1.png";
+import Ellipse1 from "../assets/ellipse1.png";
 import Ellipse2 from "../assets/ellipse2.png";
 import Ellipse3 from "../assets/ellipse3.png";
 import Ellipse4 from "../assets/ellipse4.png";
