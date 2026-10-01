@@ -1,7 +1,6 @@
 import { Star } from "lucide-react";
 
 import learnerImg from "../assets/student_pic.png";
-import creatorImg from "../assets/student_pic.png";
 import Ellipse1 from "../assets/Ellipse1.png";
 import Ellipse2 from "../assets/Ellipse2.png";
 import Ellipse3 from "../assets/Ellipse3.png";
