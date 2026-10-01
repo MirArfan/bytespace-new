@@ -3,6 +3,7 @@ import CourseGrid from "../components/CourseGrid";
 import CourseStage from "../components/CourseStage";
 import CreatorBanner from "../components/CreatorBanner";
 import FeatureSections from "../components/FeatureSections";
+import Footer from "../components/Footer";
 import HeroContent from "../components/HeroContent";
 import LearningPaths from "../components/LearningPaths";
 import LogoStrip from "../components/LogoStrip";
@@ -36,6 +37,7 @@ export default function HomePage() {
       <FeatureSections/>
       <CreatorBanner/>
       <Testimonials/>
+      <Footer/>
     </main>
   );
 }
