@@ -1,5 +1,5 @@
-import Spiral1 from "../assets/Spiral1.png";
-import Spiral2 from "../assets/Spiral2.png";
+import Spiral1 from "../assets/spiral1.png";
+import Spiral2 from "../assets/spiral2.png";
 import pyramid from "../assets/pyramid.png";
 import cylinder from "../assets/cylinder.png";
 import cone from "../assets/cone.png";

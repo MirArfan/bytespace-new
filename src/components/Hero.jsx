@@ -3,19 +3,19 @@ import { Search, Star } from "lucide-react";
 import studentImg from "../assets/student_pic.png";
 
 // 3D Shapes & Avatars
-import Spiral1 from "../assets/Spiral1.png"; // Green Squiggle (Top-Left)
-import Spiral2 from "../assets/Spiral2.png"; // White Squiggle (Left & Right)
+import Spiral1 from "../assets/spiral1.png"; // Green Squiggle (Top-Left)
+import Spiral2 from "../assets/spiral2.png"; // White Squiggle (Left & Right)
 import ring from "../assets/ring.png"; // White Ring (Bottom-Left)
 import pyramid from "../assets/pyramid.png"; // White Pyramid (Right)
-import Cylinder from "../assets/Cylinder.png"; // Green Cylinder (Top-Right)
+import Cylinder from "../assets/cylinder.png"; // Green Cylinder (Top-Right)
 
-import Ellipse1 from "../assets/Ellipse1.png";
-import Ellipse2 from "../assets/Ellipse2.png";
-import Ellipse3 from "../assets/Ellipse3.png";
-import Ellipse4 from "../assets/Ellipse4.png";
-import Ellipse5 from "../assets/Ellipse5.png";
-import Ellipse6 from "../assets/Ellipse6.png";
-import Ellipse7 from "../assets/Ellipse7.png";
+import Ellipse1 from "../assets/ellipse1.png";
+import Ellipse2 from "../assets/ellipse2.png";
+import Ellipse3 from "../assets/ellipse3.png";
+import Ellipse4 from "../assets/ellipse4.png";
+import Ellipse5 from "../assets/ellipse5.png";
+import Ellipse6 from "../assets/ellipse6.png";
+import Ellipse7 from "../assets/ellipse7.png";
 
 export default function Hero() {
     return (

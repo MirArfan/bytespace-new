@@ -1,16 +1,16 @@
 import { Star } from "lucide-react";
 
 import learnerImg from "../assets/student_pic.png";
-import Ellipse1 from "../assets/Ellipse1.png";
-import Ellipse2 from "../assets/Ellipse2.png";
-import Ellipse3 from "../assets/Ellipse3.png";
-import Ellipse4 from "../assets/Ellipse4.png";
-import Ellipse5 from "../assets/Ellipse5.png";
-import Ellipse6 from "../assets/Ellipse6.png";
-import Ellipse7 from "../assets/Ellipse7.png";
+import Ellipse1 from "../assets/ellipse1.png";
+import Ellipse2 from "../assets/ellipse2.png";
+import Ellipse3 from "../assets/ellipse3.png";
+import Ellipse4 from "../assets/ellipse4.png";
+import Ellipse5 from "../assets/ellipse5.png";
+import Ellipse6 from "../assets/ellipse6.png";
+import Ellipse7 from "../assets/ellipse7.png";
 
-import Spiral1 from "../assets/Spiral1.png";
-import Spiral2 from "../assets/Spiral2.png";
+import Spiral1 from "../assets/spiral1.png";
+import Spiral2 from "../assets/spiral2.png";
 
 import courseImg1 from "../assets/course-1.jpg";
 
