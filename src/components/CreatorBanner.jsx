@@ -1,5 +1,5 @@
-import Spiral1 from "../assets/Spiral1.png";
-import Spiral2 from "../assets/Spiral2.png";
+import spiral1 from "../assets/spiral1.png";
+import spiral2 from "../assets/spiral2.png";
 import pyramid from "../assets/pyramid.png";
 import cylinder from "../assets/cylinder.png";
 import cone from "../assets/cone.png";
@@ -25,8 +25,8 @@ export default function CreatorBanner() {
                 <div
                     className="w-66 h-66 sm:w-82 sm:h-82 bg-[#ccff00]"
                     style={{
-                        maskImage: `url(${Spiral1})`,
-                        WebkitMaskImage: `url(${Spiral1})`,
+                        maskImage: `url(${spiral1})`,
+                        WebkitMaskImage: `url(${spiral1})`,
                         maskSize: 'contain',
                         WebkitMaskSize: 'contain',
                         maskRepeat: 'no-repeat',
@@ -37,7 +37,7 @@ export default function CreatorBanner() {
 
             {/* 2. Top Inner Left White Spiral 2 */}
             <img
-                src={Spiral2}
+                src={spiral2}
                 alt="Decorative Shape"
                 className="absolute top-6 left-[18%] w-16 sm:w-24 md:w-32 object-contain brightness-200 contrast-200 pointer-events-none z-10"
             />
@@ -92,8 +92,8 @@ export default function CreatorBanner() {
                 <div
                     className="w-66 h-66 sm:w-82 sm:h-82 bg-[#ccff00]"
                     style={{
-                        maskImage: `url(${Spiral2})`,
-                        WebkitMaskImage: `url(${Spiral2})`,
+                        maskImage: `url(${spiral2})`,
+                        WebkitMaskImage: `url(${spiral2})`,
                         maskSize: 'contain',
                         WebkitMaskSize: 'contain',
                         maskRepeat: 'no-repeat',

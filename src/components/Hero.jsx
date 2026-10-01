@@ -3,19 +3,19 @@ import { Search, Star } from "lucide-react";
 import studentImg from "../assets/student_pic.png";
 
 // 3D Shapes & Avatars
-import Spiral1 from "../assets/Spiral1.png"; // Green Squiggle (Top-Left)
-import Spiral2 from "../assets/Spiral2.png"; // White Squiggle (Left & Right)
+import spiral1 from "../assets/spiral1.png"; // Green Squiggle (Top-Left)
+import spiral2 from "../assets/spiral2.png"; // White Squiggle (Left & Right)
 import ring from "../assets/ring.png"; // White Ring (Bottom-Left)
 import pyramid from "../assets/pyramid.png"; // White Pyramid (Right)
-import Cylinder from "../assets/Cylinder.png"; // Green Cylinder (Top-Right)
+import cylinder from "../assets/cylinder.png"; // Green Cylinder (Top-Right)
 
-import Ellipse1 from "../assets/Ellipse1.png";
-import Ellipse2 from "../assets/Ellipse2.png";
-import Ellipse3 from "../assets/Ellipse3.png";
-import Ellipse4 from "../assets/Ellipse4.png";
-import Ellipse5 from "../assets/Ellipse5.png";
-import Ellipse6 from "../assets/Ellipse6.png";
-import Ellipse7 from "../assets/Ellipse7.png";
+import ellipse1 from "../assets/ellipse1.png";
+import ellipse2 from "../assets/ellipse2.png";
+import ellipse3 from "../assets/ellipse3.png";
+import ellipse4 from "../assets/ellipse4.png";
+import ellipse5 from "../assets/ellipse5.png";
+import ellipse6 from "../assets/ellipse6.png";
+import ellipse7 from "../assets/ellipse7.png";
 
 export default function Hero() {
     return (
@@ -110,13 +110,13 @@ export default function Hero() {
                                 <Star size={10} className="fill-amber-400 text-amber-400 ml-0.5" />
                             </div>
                             <div className="flex -space-x-1.5">
-                                <img className="w-5 h-5 rounded-full border border-white object-cover" src={Ellipse1} alt="student" />
-                                <img className="w-5 h-5 rounded-full border border-white object-cover" src={Ellipse2} alt="student" />
-                                <img className="w-5 h-5 rounded-full border border-white object-cover" src={Ellipse3} alt="student" />
-                                <img className="w-5 h-5 rounded-full border border-white object-cover" src={Ellipse4} alt="student" />
-                                <img className="w-5 h-5 rounded-full border border-white object-cover" src={Ellipse5} alt="student" />
-                                <img className="w-5 h-5 rounded-full border border-white object-cover" src={Ellipse6} alt="student" />
-                                <img className="w-5 h-5 rounded-full border border-white object-cover" src={Ellipse7} alt="student" />
+                                <img className="w-5 h-5 rounded-full border border-white object-cover" src={ellipse1} alt="student" />
+                                <img className="w-5 h-5 rounded-full border border-white object-cover" src={ellipse2} alt="student" />
+                                <img className="w-5 h-5 rounded-full border border-white object-cover" src={ellipse3} alt="student" />
+                                <img className="w-5 h-5 rounded-full border border-white object-cover" src={ellipse4} alt="student" />
+                                <img className="w-5 h-5 rounded-full border border-white object-cover" src={ellipse5} alt="student" />
+                                <img className="w-5 h-5 rounded-full border border-white object-cover" src={ellipse6} alt="student" />
+                                <img className="w-5 h-5 rounded-full border border-white object-cover" src={ellipse7} alt="student" />
                                 <span className="w-5 h-5 rounded-full bg-[#ccff00] text-slate-950 text-[7px] font-extrabold flex items-center justify-center border border-white">
                                     2K+
                                 </span>
@@ -129,15 +129,15 @@ export default function Hero() {
             </div>
 
 
-            {/* ================= FLOATING 3D DECORATIVE SHAPES (OUTSIDE) - পজিশন অপরিবর্তিত রাখা হয়েছে ================= */}
+            {/* ================= FLOATING 3D DECORATIVE SHAPES (OUTSIDE)  ================= */}
 
             {/* Top Left: Lime Green Squiggle */}
             <div className="absolute top-6 -left-26 w-36 h-36 sm:w-52 sm:h-52 object-contain pointer-events-none z-10">
                 <div
                     className="w-66 h-66 sm:w-82 sm:h-82 bg-[#ccff00]"
                     style={{
-                        maskImage: `url(${Spiral1})`,
-                        WebkitMaskImage: `url(${Spiral1})`,
+                        maskImage: `url(${spiral1})`,
+                        WebkitMaskImage: `url(${spiral1})`,
                         maskSize: 'contain',
                         WebkitMaskSize: 'contain',
                         maskRepeat: 'no-repeat',
@@ -148,7 +148,7 @@ export default function Hero() {
 
             {/* Middle Left: White Squiggle */}
             <img
-                src={Spiral2}
+                src={spiral2}
                 alt="White Squiggle"
                 className="absolute top-80 -left-4 sm:left-72 w-30 sm:w-38 object-contain brightness-200 contrast-200 z-0 pointer-events-none"
             />
@@ -174,8 +174,8 @@ export default function Hero() {
                 <div
                     className="w-full h-full bg-[#ccff00]"
                     style={{
-                        maskImage: `url(${Cylinder})`,
-                        WebkitMaskImage: `url(${Cylinder})`,
+                        maskImage: `url(${cylinder})`,
+                        WebkitMaskImage: `url(${cylinder})`,
                         maskSize: 'contain',
                         WebkitMaskSize: 'contain',
                         maskRepeat: 'no-repeat',
@@ -201,7 +201,7 @@ export default function Hero() {
 
             {/* Bottom Right: White Squiggle */}
             <img
-                src={Spiral2}
+                src={spiral2}
                 alt="White Squiggle Right"
                 className="absolute bottom-12 right-2 sm:right-20 w-24 sm:w-62 object-contain brightness-200 contrast-200 z-0 pointer-events-none"
             />

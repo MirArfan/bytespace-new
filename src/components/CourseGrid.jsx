@@ -7,12 +7,12 @@ import courseImg4 from "../assets/course-4.jpg";
 import courseImg5 from "../assets/course-5.jpg";
 import courseImg6 from "../assets/course-6.jpg";
 
-import Ellipse1 from "../assets/Ellipse1.png";
-import Ellipse2 from "../assets/Ellipse2.png";
-import Ellipse3 from "../assets/Ellipse3.png";
-import Ellipse4 from "../assets/Ellipse4.png";
+import ellipse1 from "../assets/ellipse1.png";
+import ellipse2 from "../assets/ellipse2.png";
+import ellipse3 from "../assets/ellipse3.png";
+import ellipse4 from "../assets/ellipse4.png";
 
-const avatarsList = [Ellipse1, Ellipse2, Ellipse3, Ellipse4];
+const avatarsList = [ellipse1, ellipse2, ellipse3, ellipse4];
 
 const coursesData = [
   {

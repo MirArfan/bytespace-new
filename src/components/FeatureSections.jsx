@@ -1,16 +1,16 @@
 import { Star } from "lucide-react";
 
 import learnerImg from "../assets/student_pic.png";
-import Ellipse1 from "../assets/Ellipse1.png";
-import Ellipse2 from "../assets/Ellipse2.png";
-import Ellipse3 from "../assets/Ellipse3.png";
-import Ellipse4 from "../assets/Ellipse4.png";
-import Ellipse5 from "../assets/Ellipse5.png";
-import Ellipse6 from "../assets/Ellipse6.png";
-import Ellipse7 from "../assets/Ellipse7.png";
+import ellipse1 from "../assets/ellipse1.png";
+import ellipse2 from "../assets/ellipse2.png";
+import ellipse3 from "../assets/ellipse3.png";
+import ellipse4 from "../assets/ellipse4.png";
+import ellipse5 from "../assets/ellipse5.png";
+import ellipse6 from "../assets/ellipse6.png";
+import ellipse7 from "../assets/ellipse7.png";
 
-import Spiral1 from "../assets/Spiral1.png";
-import Spiral2 from "../assets/Spiral2.png";
+import spiral1 from "../assets/spiral1.png";
+import spiral2 from "../assets/spiral2.png";
 
 import courseImg1 from "../assets/course-1.jpg";
 import CourseCard from "./CourseCard";
@@ -67,60 +67,7 @@ export default function FeatureSections() {
 
                         {/* 1. Behind Card: Course Card */}
 
-                        {/* <div className="absolute left-0 sm:left-2 top-2 w-[220px] sm:w-[270px] bg-white rounded-2xl p-3 sm:p-3.5 shadow-xl border border-gray-100 z-0 opacity-95">
-                            <div className="relative w-full h-24 sm:h-32 rounded-xl overflow-hidden mb-2 sm:mb-3">
-                                <img
-                                    src={courseImg1}
-                                    alt="Learn Figma from Basic"
-                                    className="w-full h-full object-cover"
-                                />
-                                <div className="absolute bottom-1 left-1 right-1 flex items-center justify-between gap-0.5 text-[7px] sm:text-[8px] text-gray-700">
-                                    <span className="bg-white/90 px-1 py-0.5 rounded-full font-medium">17 Lessons</span>
-                                    <span className="bg-white/90 px-1 py-0.5 rounded-full font-medium">2h 16m</span>
-                                    <span className="bg-white/90 px-1 py-0.5 rounded-full font-medium">59 Comments</span>
-                                </div>
-                            </div>
-
-                            <div className="flex items-start justify-between gap-1 mb-0.5">
-                                <h3 className="text-xs font-bold text-slate-900 tracking-tight truncate">
-                                    Learn Figma from Basic
-                                </h3>
-                                <div className="flex items-center gap-0.5 text-[10px] font-semibold text-slate-700 shrink-0">
-                                    <span>4.5</span>
-                                    <Star size={10} className="fill-yellow-400 text-yellow-400" />
-                                </div>
-                            </div>
-
-                            <p className="text-[10px] text-gray-400 mb-2">
-                                by <span className="hover:underline cursor-pointer">purepearl studio</span>
-                            </p>
-
-                            <div className="flex items-center gap-2 sm:gap-3 mb-2 pt-1 justify-between">
-                                <div className="flex items-center gap-1 bg-gray-100 px-2 py-0.5 rounded-full text-[9px] text-gray-600 font-medium">
-                                    <span className="flex items-end gap-[1px] h-2.5">
-                                        <span className="w-[2px] h-1 bg-gray-500 rounded-sm"></span>
-                                        <span className="w-[2px] h-2 bg-gray-500 rounded-sm"></span>
-                                        <span className="w-[2px] h-2.5 bg-gray-300 rounded-sm"></span>
-                                    </span>
-                                    <span>Beginner</span>
-                                </div>
-
-                                <div className="flex items-center -space-x-1.5">
-                                    <img className="w-5 h-5 sm:w-6 sm:h-6 rounded-full border-2 border-white object-cover" src={Ellipse1} alt="student" />
-                                    <img className="w-5 h-5 sm:w-6 sm:h-6 rounded-full border-2 border-white object-cover" src={Ellipse2} alt="student" />
-                                    <img className="w-5 h-5 sm:w-6 sm:h-6 rounded-full border-2 border-white object-cover" src={Ellipse3} alt="student" />
-                                    <img className="w-5 h-5 sm:w-6 sm:h-6 rounded-full border-2 border-white object-cover" src={Ellipse4} alt="student" />
-                                    <span className="w-5 h-5 sm:w-6 sm:h-6 rounded-full border border-white bg-[#ccff00] text-slate-900 font-extrabold text-[7px] flex items-center justify-center">
-                                        26+
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div className="pt-1.5 border-t border-gray-50 flex items-baseline gap-1">
-                                <span className="text-sm font-black text-blue-600">$25</span>
-                                <span className="text-[10px] text-gray-400 font-medium">/lifetime</span>
-                            </div>
-                        </div> */}
+          
                         <CourseCard
                             className="absolute left-0 sm:left-6 top-2 w-[220px] sm:w-[270px] bg-white rounded-2xl p-3 sm:p-3.5 shadow-xl border border-gray-100 z-0 opacity-95 sm:top-6 "
                             compact={true}
@@ -136,7 +83,7 @@ export default function FeatureSections() {
                                 priceType: "/lifetime",
                                 image: courseImg1,
                             }}
-                            avatars={[Ellipse1, Ellipse2, Ellipse3, Ellipse4]}
+                            avatars={[ellipse1, ellipse2, ellipse3, ellipse4]}
                         />
 
 
@@ -152,8 +99,8 @@ export default function FeatureSections() {
                             <div
                                 className="w-28 h-28 sm:w-40 sm:h-40 bg-[#ccff00]"
                                 style={{
-                                    maskImage: `url(${Spiral2})`,
-                                    WebkitMaskImage: `url(${Spiral2})`,
+                                    maskImage: `url(${spiral2})`,
+                                    WebkitMaskImage: `url(${spiral2})`,
                                     maskSize: 'contain',
                                     WebkitMaskSize: 'contain',
                                     maskRepeat: 'no-repeat',
@@ -214,8 +161,8 @@ export default function FeatureSections() {
                             <div
                                 className="w-36 h-36 sm:w-52 sm:h-52 bg-[#ccff00]"
                                 style={{
-                                    maskImage: `url(${Spiral1})`,
-                                    WebkitMaskImage: `url(${Spiral1})`,
+                                    maskImage: `url(${spiral1})`,
+                                    WebkitMaskImage: `url(${spiral1})`,
                                     maskSize: 'contain',
                                     WebkitMaskSize: 'contain',
                                     maskRepeat: 'no-repeat',
@@ -234,13 +181,13 @@ export default function FeatureSections() {
                                     <Star size={11} className="fill-amber-400 text-amber-400" />
                                 </div>
                                 <div className="flex -space-x-1.5 sm:-space-x-2">
-                                    <img className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border-2 border-white object-cover" src={Ellipse1} alt="student" />
-                                    <img className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border-2 border-white object-cover" src={Ellipse2} alt="student" />
-                                    <img className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border-2 border-white object-cover" src={Ellipse3} alt="student" />
-                                    <img className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border-2 border-white object-cover" src={Ellipse4} alt="student" />
-                                    <img className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border-2 border-white object-cover" src={Ellipse5} alt="student" />
-                                    <img className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border-2 border-white object-cover" src={Ellipse6} alt="student" />
-                                    <img className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border-2 border-white object-cover" src={Ellipse7} alt="student" />
+                                    <img className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border-2 border-white object-cover" src={ellipse1} alt="student" />
+                                    <img className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border-2 border-white object-cover" src={ellipse2} alt="student" />
+                                    <img className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border-2 border-white object-cover" src={ellipse3} alt="student" />
+                                    <img className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border-2 border-white object-cover" src={ellipse4} alt="student" />
+                                    <img className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border-2 border-white object-cover" src={ellipse5} alt="student" />
+                                    <img className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border-2 border-white object-cover" src={ellipse6} alt="student" />
+                                    <img className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border-2 border-white object-cover" src={ellipse7} alt="student" />
                                     <span className="w-6 h-6 sm:w-7 sm:h-7 rounded-full bg-[#ccff00] text-slate-950 text-[8px] font-extrabold flex items-center justify-center border-2 border-white">
                                         2K+
                                     </span>

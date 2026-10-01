@@ -7,14 +7,14 @@ import courseImg2 from "../assets/course-2.jpg";
 
 import ring from "../assets/ring.png";
 import pyramid from "../assets/pyramid.png";
-import Spiral2 from "../assets/Spiral2.png";
-import Ellipse1 from "../assets/Ellipse1.png";
-import Ellipse2 from "../assets/Ellipse2.png";
-import Ellipse3 from "../assets/Ellipse3.png";
-import Ellipse4 from "../assets/Ellipse4.png";
-import Ellipse5 from "../assets/Ellipse5.png";
-import Ellipse6 from "../assets/Ellipse6.png";
-import Ellipse7 from "../assets/Ellipse7.png";
+import spiral2 from "../assets/spiral2.png";
+import ellipse1 from "../assets/ellipse1.png";
+import ellipse2 from "../assets/ellipse2.png";
+import ellipse3 from "../assets/ellipse3.png";
+import ellipse4 from "../assets/ellipse4.png";
+import ellipse5 from "../assets/ellipse5.png";
+import ellipse6 from "../assets/ellipse6.png";
+import ellipse7 from "../assets/ellipse7.png";
 
 import CourseCard from "./CourseCard";
 
@@ -88,7 +88,7 @@ export default function SignIn() {
                 priceType: "/lifetime",
                 image: courseImg2,
               }}
-              avatars={[Ellipse1, Ellipse2, Ellipse3, Ellipse4]}
+              avatars={[ellipse1, ellipse2, ellipse3, ellipse4]}
             />
 
             {/* Top Card: Learn Figma from Basic */}
@@ -107,12 +107,12 @@ export default function SignIn() {
                 priceType: "/lifetime",
                 image: courseImg3,
               }}
-              avatars={[Ellipse1, Ellipse2, Ellipse3, Ellipse4]}
+              avatars={[ellipse1, ellipse2, ellipse3, ellipse4]}
             />
 
             {/* 3D Decorative Shape 2: White Squiggle Middle Right */}
             <img
-              src={Spiral2}
+              src={spiral2}
               alt="Decorative Squiggle"
               className="absolute top-28 right-0 sm:right-2 w-28 h-28 sm:w-36 sm:h-36 object-contain brightness-200 contrast-200 z-30 pointer-events-none"
             />
@@ -151,37 +151,37 @@ export default function SignIn() {
                 <div className="flex -space-x-1.5 sm:-space-x-2">
                   <img
                     className="w-5 h-5 sm:w-6 sm:h-6 rounded-full border-2 border-white object-cover"
-                    src={Ellipse1}
+                    src={ellipse1}
                     alt="student"
                   />
                   <img
                     className="w-5 h-5 sm:w-6 sm:h-6 rounded-full border-2 border-white object-cover"
-                    src={Ellipse2}
+                    src={ellipse2}
                     alt="student"
                   />
                   <img
                     className="w-5 h-5 sm:w-6 sm:h-6 rounded-full border-2 border-white object-cover"
-                    src={Ellipse3}
+                    src={ellipse3}
                     alt="student"
                   />
                   <img
                     className="w-5 h-5 sm:w-6 sm:h-6 rounded-full border-2 border-white object-cover"
-                    src={Ellipse4}
+                    src={ellipse4}
                     alt="student"
                   />
                   <img
                     className="w-5 h-5 sm:w-6 sm:h-6 rounded-full border-2 border-white object-cover"
-                    src={Ellipse5}
+                    src={ellipse5}
                     alt="student"
                   />
                   <img
                     className="w-5 h-5 sm:w-6 sm:h-6 rounded-full border-2 border-white object-cover"
-                    src={Ellipse6}
+                    src={ellipse6}
                     alt="student"
                   />
                   <img
                     className="w-5 h-5 sm:w-6 sm:h-6 rounded-full border-2 border-white object-cover"
-                    src={Ellipse7}
+                    src={ellipse7}
                     alt="student"
                   />
                   <span className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-slate-900 text-slate-0 opacity-80 text-[8px] font-extrabold flex items-center justify-center border-2 border-white">
