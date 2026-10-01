@@ -1,16 +1,68 @@
-# React + Vite
+# ByteSpace - Online Learning & Skill Development Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ByteSpace is a modern, responsive web platform designed to explore online courses, learning paths, and digital technology skills. Built with React and Tailwind CSS, the platform offers an intuitive UI/UX with smooth navigation and interactive component structures.
 
-Currently, two official plugins are available:
+ 
+## 🚀 Live Demo & Repository
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Live Site**: [https://bytespace-new-blond.vercel.app/](https://bytespace-new-blond.vercel.app/)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- **Hero Section**: Visually appealing layout with dynamic call-to-action elements.
+- **Course Catalog**: Filterable and reusable course grid featuring rating systems, instructor details, and price badges.
+- **Learning Paths**: Structured categorization for domain-specific learning (Web Development, Data Science, Cyber Security, etc.).
+- **Authentication Pages**: Clean Login and Sign-Up screens with complete route integration.
+- **Responsive Design**: Mobile-first responsive views optimized across devices.
+- **SPA Routing Support**: Configured rewrites (`vercel.json`) to support seamless direct URL reloads on single-page application routes.
+
+
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js (Vite)
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Routing**: React Router DOM
+- **Deployment**: Vercel
+
+
+
+## 💻 Local Setup Instructions
+
+Follow these steps to run the project locally on your machine:
+
+1. Clone the repository
+2. Install dependencies:
+
+   ```Bash
+   npm install
+   ```
+3. Start the development server:
+
+   ```Bash
+   npm run dev
+   ```
+4. Build for production:
+
+   ```Bash
+   npm run build
+   ```
+ 
+ 📁 Project Structure
+```Plaintext
+bytespace-new/
+├── public/
+├── src/
+│   ├── assets/          # Static images and lowercased assets
+│   ├── components/      # Reusable UI components (Hero, CourseCard, Navbar, etc.)
+│   ├── pages/           # Page (HomePage, LoginPage, SignUpPage)
+│   ├── App.jsx
+│   └── main.jsx
+├── vercel.json          # Vercel single-page application routing configuration
+├── package.json
+└── vite.config.js
+```
