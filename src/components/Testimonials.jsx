@@ -68,9 +68,9 @@ export default function Testimonials() {
                         <div
                             key={item.id}
 
-                            className=" bg-white/90backdrop-blur-sm rounded-3xl p-7 sm:p-9 border border-gray-100/80 
+                            className=" bg-white/90 backdrop-blur-sm rounded-3xl p-7 sm:p-9 border border-gray-100/80 
                                         shadow-lg shadow-gray-100/50 flex flex-col justify-between 
-                                        min-h-[280px] sm:min-h-[300px] h-full
+                                        min-h-[280px] max-w-[350px] sm:min-h-[300px] h-full
                                         hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
                         >
                             <div>
