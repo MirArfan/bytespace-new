@@ -13,6 +13,7 @@ import Spiral1 from "../assets/Spiral1.png";
 import Spiral2 from "../assets/Spiral2.png";
 
 import courseImg1 from "../assets/course-1.jpg";
+import CourseCard from "./CourseCard";
 
 export default function FeatureSections() {
     return (
@@ -65,7 +66,8 @@ export default function FeatureSections() {
                     <div className="relative flex justify-center items-center h-[380px] sm:h-[460px] w-full max-w-lg mx-auto">
 
                         {/* 1. Behind Card: Course Card */}
-                        <div className="absolute left-0 sm:left-2 top-2 w-[220px] sm:w-[270px] bg-white rounded-2xl p-3 sm:p-3.5 shadow-xl border border-gray-100 z-0 opacity-95">
+
+                        {/* <div className="absolute left-0 sm:left-2 top-2 w-[220px] sm:w-[270px] bg-white rounded-2xl p-3 sm:p-3.5 shadow-xl border border-gray-100 z-0 opacity-95">
                             <div className="relative w-full h-24 sm:h-32 rounded-xl overflow-hidden mb-2 sm:mb-3">
                                 <img
                                     src={courseImg1}
@@ -118,7 +120,25 @@ export default function FeatureSections() {
                                 <span className="text-sm font-black text-blue-600">$25</span>
                                 <span className="text-[10px] text-gray-400 font-medium">/lifetime</span>
                             </div>
-                        </div>
+                        </div> */}
+                        <CourseCard
+                            className="absolute left-0 sm:left-6 top-2 w-[220px] sm:w-[270px] bg-white rounded-2xl p-3 sm:p-3.5 shadow-xl border border-gray-100 z-0 opacity-95 sm:top-6 "
+                            compact={true}
+                            course={{
+                                title: "Build Digital Asset",
+                                author: "purepearl studio",
+                                rating: 4.5,
+                                lessons: "17 Lessons",
+                                duration: "2h 16m",
+                                comments: "59 Comments",
+                                level: "Beginner",
+                                price: "$25",
+                                priceType: "/lifetime",
+                                image: courseImg1,
+                            }}
+                            avatars={[Ellipse1, Ellipse2, Ellipse3, Ellipse4]}
+                        />
+
 
                         {/* 2. Main Character (Student) */}
                         <img
@@ -143,7 +163,7 @@ export default function FeatureSections() {
                         </div>
 
                         {/* 4. Floating Progress Card */}
-                        <div className="absolute right-0 sm:right-6 bottom-8 sm:bottom-16 z-20 bg-white/95 backdrop-blur-md p-3 sm:p-3.5 rounded-2xl shadow-xl border border-gray-100 min-w-[120px] sm:min-w-[140px]">
+                        <div className="absolute right-0 sm:right-6 bottom-8 sm:bottom-42 z-20 bg-white/95 backdrop-blur-md p-3 sm:p-3.5 rounded-2xl shadow-xl border border-gray-100 min-w-[120px] sm:min-w-[140px]">
                             <p className="text-[9px] sm:text-[10px] text-gray-400 font-medium mb-0.5">Learning Progress</p>
                             <p className="text-xl sm:text-2xl font-black text-slate-900 mb-1">55%</p>
                             <div className="w-full h-1.5 bg-gray-100 rounded-full overflow-hidden">

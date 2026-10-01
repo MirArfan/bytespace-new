@@ -88,7 +88,7 @@ export default function CreatorBanner() {
             />
 
             {/* 3. Bottom Right Lime Spiral 1 */}
-            <div className="absolute -bottom-8 right-[4%] w-36 h-36 sm:w-52 sm:h-52 object-contain pointer-events-none z-10">
+            <div className="absolute -bottom-2 right-[16%] w-36 h-36 sm:w-52 sm:h-52 object-contain pointer-events-none z-10">
                 <div
                     className="w-66 h-66 sm:w-82 sm:h-82 bg-[#ccff00]"
                     style={{
